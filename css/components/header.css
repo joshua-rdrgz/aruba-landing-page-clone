@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.header__logo {
+  width: 10rem;
+}
+
+.header__language-checkbox {
+  display: none;
+}
+
+.header__language-checkbox:checked ~ .language-nav {
+  display: block;
+}
+
+.header__language-label {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-width: 3rem;
+}
+
+.header__language-label:hover {
+  color: var(--bs-orange);
+}
+
+.header__language-label:active {
+  box-shadow: 0 0 0 0.4rem rgb(130 138 145 / 50%);
+  border-radius: 0.5rem;
+}

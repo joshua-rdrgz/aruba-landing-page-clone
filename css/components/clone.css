@@ -1,0 +1,6 @@
+.clone {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  font-size: 2rem;
+  text-align: center;
+}
