@@ -23,7 +23,7 @@ body {
 body {
   box-sizing: border-box;
   text-rendering: optimizeSpeed;
-  font-family: var(--bs-font-sans-serif);
+  font-family: var(--font-family);
   line-height: 1.5;
   background-color: var(--bs-white);
   color: var(--bs-dark);
@@ -66,5 +66,11 @@ svg {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
   }
 }

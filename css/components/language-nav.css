@@ -1,7 +1,6 @@
 .language-nav {
   display: none;
   position: relative;
-  font-family: var(--font-family);
 }
 
 .language-nav__ul {
