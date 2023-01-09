@@ -1,0 +1,9 @@
+.btn {
+  display: block;
+  background-color: var(--bs-orange);
+  color: var(--bs-white);
+  border: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+}
