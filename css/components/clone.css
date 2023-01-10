@@ -9,3 +9,8 @@
   z-index: 10;
   height: 3rem;
 }
+
+.clone__link,
+.clone__link:visited {
+  color: var(--bs-blue);
+}
