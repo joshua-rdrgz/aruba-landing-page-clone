@@ -9,6 +9,7 @@
   position: relative;
   overflow: hidden;
   min-height: 45rem;
+  margin-top: 12rem;
 }
 
 .herobox::after {
