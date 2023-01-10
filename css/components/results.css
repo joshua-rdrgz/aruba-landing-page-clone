@@ -55,6 +55,7 @@
   flex-direction: column;
   padding: 1.5rem 0;
   margin: 0 1.5rem;
+  box-shadow: 4px 4px 16px 0px rgb(28 40 44 / 15%)
 }
 
 .results__projection-icon {
